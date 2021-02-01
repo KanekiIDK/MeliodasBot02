@@ -97,13 +97,13 @@ module.exports = kconfig = async (kill, message) => {
         const mess = {
             wait: '✅¿Puedes esperar un rato? Realizar este tipo de comando lleva algún tiempo🏳.',
             error: {
-                St: '¡Lo usaste mal jaja! \nPara usar esto, envía o etiqueta una foto con este mensaje.',
+                St: '¡Lo usaste mal XD! \nPara usar esto, envía o etiqueta una foto con este mensaje.',
                 Ki: 'Para eliminar administradores, primero debe eliminar su ADM.',
                 Ad: '¡Errores! No pude agregarlo, podría deberse a la limitación de agregar o mis errores.',
                 Go: 'Por qué, solo el propietario de un grupo puede usar este tipo de comando.',
 		Kl: '¡Ups! Ese es solo mi creador, no puedes acceder.',
 		Ga: 'Solo los administradores pueden usarlo, así que chaoo jaja!',
-		Gp: 'Lo siento, pero este es un comando para grupos.🕳💦.',
+		Gp: 'Lo siento, pero este es un comando para grupos.🔥👍.',
 		Ac: 'Solo los grupos que permiten contenido +18 pueden usar comandos como este, si usted es el propietario y desea esto, use /nsfw enable o use en PRIV.',
 		Ba: 'Estimado administrador, si desea que use estos comandos, debe permitirme ser admin😙!',
                 Iv: '¿Este enlace es correcto? Me parece mal...'
