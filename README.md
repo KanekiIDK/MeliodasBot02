@@ -105,6 +105,7 @@ Edite las API que se encuentran en:
 - [ArugaZ](https://github.com/ArugaZ/whatsapp-bot)
 - [MhankBarBar](https://github.com/MhankBarBar/whatsapp-bot)
 - [Samu330](https://github.com/Samu330)
+- [MeliodasJAJA](https://github.com/MeliodasJAJA)
 - ¡Les agradezco sinceramente sus excelentes API!
 
 ## Doar e Suporte
