@@ -51,8 +51,8 @@ BOT
 Necesita tener este repositorio, es simple, ejecute los comandos a continuación.
 
 ```bash
-> git clone https://github.com/Samu330/Sm330-botwa
-> cd Sm330-botwa
+> git clone https://github.com/MeliodasJAJA/MeliodasBot02
+> cd MeliodasBot02
 > npm i
 > npm install gify-cli
 ```
