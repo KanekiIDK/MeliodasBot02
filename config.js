@@ -231,8 +231,8 @@ module.exports = kconfig = async (kill, message) => {
     await kill.reply(from, 'Algunos videos del canal de mi bro DEIVID\n\nWhatsApp ANONYMOUS V.06 oFc 100% inmune\n\nhttps://youtu.be/tOE_ywldS_Q\n\nComo modificar un WA prt-1\n\nhttps://youtu.be/WdWsvY3xGPc\n\nWhAtsApp BusSines Golden/13\n\nhttps://youtu.be/JqSHAWlGhDY\n\nNumero virtual +48 método efectivo\n\nhttps://youtu.be/7GOss7AaJ88\n\nNumero virtual +1 EE.Uu (ANONYMOUS DEIVID)\n\nhttps://youtu.be/D1G6hI1mLs4\n\nCreando con pixelLab (ANONYMOUS DEIVID)\n\nhttps://youtu.be/so1y1g-MPZ4\n\nSu video mas reciente:\n\nhttps://youtu.be/hy4od9BT-tA\n\nEspero y lo apoyes🤗', id)
     break
 	
-	    case 'samu330':
-    await kill.reply(from, '｡☆✼★━━━━━━━━━━━━★✼☆｡\n\nHola!😀\n\nTe gustaria apoyarme?\n\nSolo unete a mi grupo de WhatsApp: https://chat.whatsapp.com/ELeHAmX3P6j1xy1qNRjEXR\n\n* ◄ ◊ ► ◄ ◊ ► ◄ ◊ ► ◄ ◊ ► ◄ ◊ ►*\n\nO puedes suscribirte a mi canal para saber como instalar un Bot: https://www.youtube.com/channel/UCqPXxG2ZdDe_ugOqMHDRMqg\n\n✩｡:*•.─────  ❁ ❁  ─────.•*:｡✩\n\nO seamos amigos en facebook: https://facebook.com/tupapi.samu330', id)
+	    case 'Meliodas':
+    await kill.reply(from, '｡☆✼★━━━━━━━━━━━━★✼☆｡\n\nHola!😀\n\nTe gustaria apoyarme? si a mi tambien, ni idea de como._.', id)
     break	
 			
 		case 'about':
@@ -528,7 +528,7 @@ if (isMedia) {
             if (onar[0] == 'on') {
 				kill.setGroupToAdminsOnly(groupId, true).then(() => kill.sendText(from, 'Se cierra el grupo!\nSE ABRIRA EN UNOS MOMENTOS :)'))
 			} else if (onar[0] == 'off') {
-				kill.setGroupToAdminsOnly(groupId, false).then(() => kill.sendText(from, 'Ya pueden escribir gente!! NOMAS NO LLENEN EL CHAT!!🥶'))
+				kill.setGroupToAdminsOnly(groupId, false).then(() => kill.sendText(from, 'Ya pueden escribir gente!! NOMAS NO LLENEN EL CHAT!!🥶(?'))
 			} else {
 				kill.reply(from, `Olvidaste encenderlo (ON) o apagarlo [Off].`, id)
 			}
@@ -537,7 +537,7 @@ if (isMedia) {
 			
 		case 'legiao':
 			if (isGroupMsg) return kill.reply(from, 'Puede ser que este grupo no permita enlaces, así que use ese comando en el PV, ¿de acuerdo?', id)
-			kill.sendLinkWithAutoPreview(from, 'https://wa.me/+529984907794', 'Genial que te hayas interesado en contactar a samu!\nAqui esta su whats!', id)
+			kill.sendLinkWithAutoPreview(from, 'https://wa.me/+5216538490293', 'Genial que te hayas interesado en contactar a Meliodas!\nAqui esta su whats!', id)
 			break
 			
 			
@@ -545,7 +545,7 @@ if (isMedia) {
 			if (!isGroupMsg) return kill.reply(from, mess.error.Gp, id)
             if (!isGroupAdmins) return kill.reply(from, mess.error.Ga, id)
             if (!isBotGroupAdmins) return kill.reply(from, mess.error.Ba, id)
-			await kill.revokeGroupInviteLink(groupId).then(() => kill.reply(from, 'Allí se cumplió tu orden! e.e', id))
+			await kill.revokeGroupInviteLink(groupId).then(() => kill.reply(from, 'Allí se cumplió tu orden!:) e.e', id))
 			break
 			
 			
@@ -596,7 +596,7 @@ if (isMedia) {
                 const mediaData = await decryptMedia(quotedMsg)
                 kill.reply(from, `Podrias esperar porfavor? esto lleva un poco de tiempo👑`, id)
                 const stickerImage = `data:${quotedMsg.mimetype};base64,${mediaData.toString('base64')}`
-                await kill.sendFile(from, stickerImage, '', 'Disfruta, aquí tienes tu foto! :D', id)
+                await kill.sendFile(from, stickerImage, '', 'Disfruta, aquí tienes tu foto! ❤:D', id)
 			} else if (!quotedMsg) return kill.reply(from, `Lo siento, esto es solo para stickers...`, id)
 			break	
 
@@ -699,7 +699,7 @@ if (isMedia) {
 			const pint = await linp.json()
             let erest = pint[Math.floor(Math.random() * pint.length) + 1]
 			console.log(erest)
-            await kill.sendFileFromUrl(from, erest, '', 'Fueron muchos pero espero que les guste la imagen que elegí ^^!', id)
+            await kill.sendFileFromUrl(from, erest, '', 'Fueron muchos pero espero que les guste la imagen que elegí❤^^!', id)
 			.catch(() => {
                 kill.reply(from, 'No se ha recibido ninguna imagen o el servidor está desconectado, inténtalo más tarde.', id)
             })
@@ -710,7 +710,7 @@ if (isMedia) {
             const yam = await fetch(`http://api.fdci.se/rep.php?gambar=yaoi`)
 			const yaoi = await yam.json()
             let flyaoi = yaoi[Math.floor(Math.random() * yaoi.length) + 1]
-            await kill.sendFileFromUrl(from, flyaoi, '', 'Tururu...', id)
+            await kill.sendFileFromUrl(from, flyaoi, '', 'Tururu...🔥👀', id)
 			.catch(() => {
                 kill.reply(from, 'No se ha recibido ninguna imagen o el servidor está desconectado, inténtalo más tarde.', id)
             })
@@ -928,7 +928,7 @@ if (isMedia) {
 
 
 		case 'send':
-			if (args.length == 0) return kill.reply(from, 'Olvidaste poner un enlace de imagen jaja!', id)
+			if (args.length == 0) return kill.reply(from, 'Olvidaste poner un enlace de imagen XD!', id)
 			const file = body.slice(6)
 			if (file.endsWith('.jpg')) {
 				await kill.sendFileFromUrl(from, file, '', '', id)
@@ -1059,7 +1059,7 @@ if (isMedia) {
 
 
         case 'wallpaper':
-            if (args.length == 0) return kill.reply(from, 'Necesitas decirme que quieres de fondo de pantalla!', id)
+            if (args.length == 0) return kill.reply(from, 'Necesitas decirme que quieres de fondo de pantalla ✌!', id)
             const quere = body.slice(6)
             const wallp = await wall(quere)
             console.log(wallp)
@@ -1073,7 +1073,7 @@ if (isMedia) {
 
 
         case 'criador':
-            kill.sendContact(from, 'wa.me/+529984907794')
+            kill.sendContact(from, 'wa.me/+5216538490293')
 			kill.reply(from, 'Si no responde, solo espera, es raro que deje Internet ~Smitten guy sabe~, pero si sucedió, fue algo importante..', id)
             break
 
@@ -1081,7 +1081,7 @@ if (isMedia) {
         case 'donate':
 		case 'doar':
             kill.sendText(from, donate, id)
-            kill.sendContact(from, 'wa.me/+529984907794')
+            kill.sendContact(from, 'wa.me/+5216538490293')
             break
 
 
@@ -1538,7 +1538,7 @@ if (isMedia) {
 
 
         case 'broad':
-            if (!isOwner) return kill.reply(from, 'Solo mi creador tiene acceso a este comando.', id)
+            if (!isOwner) return kill.reply(from, 'Solo mi creador Meliodas tiene acceso a este comando.', id)
             let msg = body.slice(6)
             const chatz = await kill.getAllChatIds()
             for (let ids of chatz) {
@@ -1614,7 +1614,7 @@ if (isMedia) {
         case 'everyone':
 			if (isGroupMsg && isGroupAdmins) {
 				const groupMem = await kill.getGroupMembers(groupId)
-				let hehe = `🛑╔══✪〘 HOLA TODOS MARCADOS 〙✪══\n⚠╠✪〘 Asunto: ${body.slice(10)} 〙✪═\n`
+				let hehe = `🛑╔══✪〘 HOLA TODOS XD JSJSJ 〙✪══\n⚠╠✪〘 Asunto: ${body.slice(10)} 〙✪═\n`
 				for (let i = 0; i < groupMem.length; i++) {
 					hehe += '🔥╠➥ '
 					hehe += ` @${groupMem[i].id.replace(/@c.us/g, '')}\n`
@@ -1624,7 +1624,7 @@ if (isMedia) {
 				await kill.sendTextWithMentions(from, hehe, id)
 			} else if (isGroupMsg && isOwner) {
 				const groupMem = await kill.getGroupMembers(groupId)
-				let hehe = `🛑╔══✪〘 HOLA TODOS MARCADOS 〙✪══\n⚠╠✪〘 Assunto: ${body.slice(10)} 〙✪═\n`
+				let hehe = `🛑╔══✪〘 HOLA TODOS XD JSJSJ 〙✪══\n⚠╠✪〘 Assunto: ${body.slice(10)} 〙✪═\n`
 				for (let i = 0; i < groupMem.length; i++) {
 					hehe += '🔥╠➥ '
 					hehe += ` @${groupMem[i].id.replace(/@c.us/g, '')}\n`
@@ -1668,7 +1668,7 @@ if (isMedia) {
 
 
         case 'leaveall':
-            if (!isOwner) return kill.reply(from, 'Solo mi creador tiene acceso a este comando.', id)
+            if (!isOwner) return kill.reply(from, 'Solo mi creador Meliodas tiene acceso a este comando.', id)
             const allChats = await kill.getAllChatIds()
             const allGroups = await kill.getAllGroups()
             for (let gclist of allGroups) {
@@ -1680,7 +1680,7 @@ if (isMedia) {
 
 
         case 'clearall':
-            if (!isGroupAdmins && !isOwner && !isBotGroupAdmins) return kill.reply(from, 'Solo mi creador tiene acceso a este comando.', id)
+            if (!isGroupAdmins && !isOwner && !isBotGroupAdmins) return kill.reply(from, 'Solo mi creador Meliodastiene acceso a este comando.', id)
             const allChatz = await kill.getAllChats()
             for (let dchat of allChatz) {
                 await kill.deleteChat(dchat.id)
@@ -1828,11 +1828,11 @@ if (isMedia) {
 
         case 'leave':
 			if (isGroupMsg && isGroupAdmins) {
-				await kill.sendText(from,'Tendré que irme pero nos eremos pronto! <3').then(() => kill.leaveGroup(groupId))
+				await kill.sendText(from,'Tendré que irme pero nos veremos pronto! <3').then(() => kill.leaveGroup(groupId))
 			} else if (isGroupMsg && isOwner) {
-				await kill.sendText(from,'Tendré que irme pero nos eremos pronto! <3').then(() => kill.leaveGroup(groupId))
+				await kill.sendText(from,'Tendré que irme pero nos veremos pronto! <3').then(() => kill.leaveGroup(groupId))
 			} else if (isGroupMsg) {
-				await kill.reply(from, 'Lo siento, solo los administradores y mi propietario pueden usar este comando...', id)
+				await kill.reply(from, 'Lo siento, solo los administradores y mi propietario Meliodas pueden usar este comando...', id)
 			} else {
 				await kill.reply(from, 'Este comando solo se puede usar en grupos!', id)
 			}
@@ -2156,12 +2156,12 @@ if (isMedia) {
 			if (args[0] == 'on') {
                 exsv.push(chatId)
                 fs.writeFileSync('./lib/exclusive.json', JSON.stringify(exsv))
-                kill.reply(from, 'Se han habilitado los comandos exclusivos de Legion (antilink,antiporno, no sacar al bot).', id)
+                kill.reply(from, 'Se han habilitado los comandos exclusivos de MELIODAS (antilink,antiporno, no sacar al bot).', id)
 			} else if (args[0] == 'off') {
 				let exclu = exsv.indexOf(chatId)
                 exsv.splice(exclu, 1)
                 fs.writeFileSync('./lib/exclusive.json', JSON.stringify(exsv))
-                kill.reply(from, 'Se han desactivado los comandos exclusivos de Legion (antilink,antiporno, no sacar al bot)', id)
+                kill.reply(from, 'Se han desactivado los comandos exclusivos de MELIODAS (antilink,antiporno, no sacar al bot)', id)
             } else {
                 kill.reply(from, 'Activar o desactivar!', id)
             }
@@ -2204,7 +2204,7 @@ if (isMedia) {
 				kill.sendFileFromUrl(from, waifu1.data.image, ``, `*Nombre:* ${waifu1.data.name}\n\n*Descripcion > *\n${waifu1.data.desc}`, id)
             } else if (triple == 3) {
 				const waifu3 = await axios.get(`https://nekos.life/api/v2/img/waifu`)
-				await kill.sendFileFromUrl(from, waifu3.data.url, '', 'No se nada de ella:)', id)
+				await kill.sendFileFromUrl(from, waifu3.data.url, '', 'No se nada de ella:(', id)
 			}
             break
 
@@ -2704,7 +2704,7 @@ if (isMedia) {
         case 'screenshot':
             const _query = body.slice(12)
             if (!_query.match(isUrl)) return kill.reply(from, mess.error.Iv, id)
-            if (args.length == 0) return kill.reply(from, 'Huelo ortografía incorrecta:v!', id)
+            if (args.length == 0) return kill.reply(from, 'Huelo ortografía incorrecta(?!', id)
             await ss(_query)
             await sleep(4000)
 			await kill.sendFile(from, './lib/media/img/screenshot.jpeg', 'ss.jpeg', 'Asegúrate de evitar usar esto con pornografía..', id)
@@ -2744,7 +2744,7 @@ if (isMedia) {
             arqa = body.trim().split(' ')
 			if (args.length == 1) {
 				const persona = author.replace('@c.us', '')
-				kill.sendTextWithMentions(from, 'OMG😱! @' + persona + ' se beso con ' + arqa[1] + ' !')
+				kill.sendTextWithMentions(from, 'EPICO😱🔥! @' + persona + ' se beso con ' + arqa[1] + ' !')
 				if (double == 1) {
 				await kill.sendGiphyAsSticker(from, 'https://media.giphy.com/media/KIHVryx36BAkeb1lHw/giphy.gif')
 				} else {
@@ -2781,7 +2781,7 @@ if (isMedia) {
 			const timed = moment(t * 1000).format('DD/MM/YY HH:mm:ss')
 			const allin = `Hola usuario "@${sender.id}"!\n\nMe lleve ${processTime(t, moment())} segundos para responder.\n\nAhora son exactamente "${timed}".\nAqui abajito estan todas mis funciones.\n`
             kill.sendTextWithMentions(from, allin + help, id)
-            kill.reply(from, '💢De otros comandos tenemos...\n\n*/Admins* _❌es para administradores._\n\n*/Kill* _🖤🖤es solo para mi dueño._\n\n*/Adult* _🍆🍆es el menú de comandos para adultos😈._\n\n*/Down* _⚠es el menú de descarga de música y video._\n\n*/termux* _🚧Comandos para termux🚧_', id)
+            kill.reply(from, '💢De otros comandos tenemos...\n\n*/Admins* _❌es para administradores._\n\n*/Kill* _🖤🖤es solo para mi dueño MELIODAS❤🔥._\n\n*/Adult* _❤🔥👍es el menú de comandos para adultos😈._\n\n*/Down* _⚠es el menú de descarga de música y video._\n\n*/termux* _🚧Comandos para termux🚧_', id)
             break
 
 
