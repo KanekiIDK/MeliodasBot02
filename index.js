@@ -52,7 +52,7 @@ const start = (kill = new Client()) => {
 
         // Bloqueia na call
         kill.onIncomingCall(( async (call) => {
-            await kill.sendText(call.peerJid, 'Que pena! ¡Las llamadas no son compatibles y se interponen en el camino! 😊\nTe bloqueé para evitar nuevos incidentes, contacta al propietario para desbloquear. 👋')
+            await kill.sendText(call.peerJid, 'Que pena! ¡Las llamadas no son compatibles y se interponen en el camino! 😊\nTe bloqueé para evitar nuevos incidentes, contacta al propietario MELIODAS para desbloquear. 👋')
             .then(() => kill.contactBlock(call.peerJid)) // se quiser, pode inserir seu numero acima na sendText com wa.me ou apenas o numero, ou pode mudar pra kill.sendTextWithMentions pra enviar te marcando
         }))
     }
