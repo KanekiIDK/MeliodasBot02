@@ -72,7 +72,7 @@ Escriba en su chat el mensaje:
 ```
 
 ### Crea tus comandos
-Abre tu config.js y encuentra un pequeño espacio en blanco, te daré un ejemplo de una respuesta simple, ve a probarlo como quieras, a otros tipos, puedes ver cuáles [aqui](https://docs.openwa.dev/classes/client.html) y en caso de duda llámame por [aqui](https://facebook.com/tupapi.samu330) o [aqui](https://wa.me/+529984907794).
+Abre tu config.js y encuentra un pequeño espacio en blanco, te daré un ejemplo de una respuesta simple, ve a probarlo como quieras, a otros tipos, puedes ver cuáles [aqui](https://docs.openwa.dev/classes/client.html)
 
 ```bash
 case 'Nombre del comando sin espacios':
