@@ -6,7 +6,7 @@ const color = require('./lib/color')
 
 // Cria um cliente de inicialização da BOT
 const start = (kill = new Client()) => {
-    console.log(color('\n> DEV OFICIAL ='), color('SAMU330', 'yellow'))
+    console.log(color('\n> DEV OFICIAL ='), color('MΣᄂIӨDΛƧ', 'yellow'))
 	console.log(color('\n>'), color('Instalacion finalizada, ya puede usar comandos...\n', 'red'))
 	
 		// Forçar recarregamento caso obtenha erros
