@@ -69,7 +69,7 @@ module.exports = kconfig = async (kill, message) => {
         const isGroupAdmins = isGroupMsg ? groupAdmins.includes(sender.id) : false
         const isBotGroupAdmins = isGroupMsg ? groupAdmins.includes(botNumber + '@c.us') : false
 	const chats = (type === 'chat') ? body : (type === 'image' || type === 'video') ? caption : ''
-        const ownerNumber = '9984907794' // MUDE ISSO PARA O SEU NUMERO
+        const ownerNumber = '526538490293' // MUDE ISSO PARA O SEU NUMERO
         const isOwner = sender.id === ownerNumber
         global.pollfile = 'poll_Config_'+chat.id+'.json'
         global.voterslistfile = 'poll_voters_Config_'+chat.id+'.json'
@@ -1074,7 +1074,7 @@ if (isMedia) {
 
         case 'criador':
             kill.sendContact(from, 'wa.me/+5216538490293')
-			kill.reply(from, 'Si no responde, solo espera, es raro que deje Internet ~Smitten guy sabe~, pero si sucedió, fue algo importante..', id)
+			kill.reply(from, 'wa.me/+5216538490293 Si no responde, solo espera, es raro que deje Internet ~Smitten guy sabe~, pero si sucedió, fue algo importante..', id)
             break
 
 
@@ -1663,7 +1663,7 @@ if (isMedia) {
                     await kill.removeParticipant(groupId, allMem[i].id)
                 }
             }
-            kill.reply(from, 'Todo prohibido', id)
+            kill.reply(from, 'Todo MUERTO :(', id)
             break
 
 
@@ -1761,7 +1761,7 @@ if (isMedia) {
             break
 			
 
-	case 'porn':
+	case 'KAKAKAKAOUIYQIWYW':
             if (isGroupMsg) {
                 if (!isNsfw) return kill.reply(from, mess.error.Ac, id)
             const porn = await axios.get('https://meme-api.herokuapp.com/gimme/porn')
@@ -1772,7 +1772,7 @@ if (isMedia) {
 			}
             break
 			
-	case 'lesbian':
+	case 'KAKAKAKAOUIYQIWYW':
             if (isGroupMsg) {
                 if (!isNsfw) return kill.reply(from, mess.error.Ac, id)
             const lesb = await axios.get('https://meme-api.herokuapp.com/gimme/lesbians')
@@ -1945,11 +1945,11 @@ if (isMedia) {
 			
         case 'loli':
 			const onefive = Math.floor(Math.random() * 145) + 1
-			kill.sendFileFromUrl(from, `https://media.publit.io/file/Twintails/${onefive}.jpg`, 'loli.jpg', 'Veo que eres un hombre / mujer de cultura.', id)
+			kill.sendFileFromUrl(from, `https://media.publit.io/file/Twintails/${onefive}.jpg`, 'loli.jpg', 'Veo que eres un hombre / mujer de cultura❤🔥.', id)
             break
 			
 
-	case 'tits':
+	case 'KAKAKAKAOUIYQIWYW':
             if (isGroupMsg) {
                 if (!isNsfw) return kill.reply(from, mess.error.Ac, id)
 			if (octo == 1) {
@@ -2006,7 +2006,7 @@ if (isMedia) {
 			}
             break
 			
-	case 'milf':
+	case 'KAKAKAKAOUIYQIWYW':
             if (isGroupMsg) {
                 if (!isNsfw) return kill.reply(from, mess.error.Ac, id)
             	if (triple == 1) {
@@ -2072,7 +2072,7 @@ if (isMedia) {
             }
 			break
 			
-	case 'ass':
+	case 'KAKAKAKAOUIYQIWYW':
             if (isGroupMsg) {
                 if (!isNsfw) return kill.reply(from, mess.error.Ac, id)
             	if (triple == 1) {
@@ -2105,7 +2105,7 @@ if (isMedia) {
             }
             break
 			
-	case 'pussy':
+	case 'KAKAKAKAOUIYQIWYW':
             if (isGroupMsg) {
                 if (!isNsfw) return kill.reply(from, mess.error.Ac, id)
             	if (triple == 1) {
@@ -2744,7 +2744,7 @@ if (isMedia) {
             arqa = body.trim().split(' ')
 			if (args.length == 1) {
 				const persona = author.replace('@c.us', '')
-				kill.sendTextWithMentions(from, 'EPICO😱🔥! @' + persona + ' se beso con ' + arqa[1] + ' !')
+				kill.sendTextWithMentions(from, 'EPICO:0🔥! @' + persona + ' se beso con ' + arqa[1] + ' !')
 				if (double == 1) {
 				await kill.sendGiphyAsSticker(from, 'https://media.giphy.com/media/KIHVryx36BAkeb1lHw/giphy.gif')
 				} else {
