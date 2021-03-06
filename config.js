@@ -69,7 +69,7 @@ module.exports = kconfig = async (kill, message) => {
         const isGroupAdmins = isGroupMsg ? groupAdmins.includes(sender.id) : false
         const isBotGroupAdmins = isGroupMsg ? groupAdmins.includes(botNumber + '@c.us') : false
 	const chats = (type === 'chat') ? body : (type === 'image' || type === 'video') ? caption : ''
-        const ownerNumber = '5216538490293' // MUDE ISSO PARA O SEU NUMERO
+        const ownerNumber = '50582733230' // MUDE ISSO PARA O SEU NUMERO
         const isOwner = sender.id === ownerNumber
         global.pollfile = 'poll_Config_'+chat.id+'.json'
         global.voterslistfile = 'poll_voters_Config_'+chat.id+'.json'
@@ -1073,15 +1073,15 @@ if (isMedia) {
 
 
         case 'criador':
-            kill.sendContact(from, 'wa.me/+5216538490293')
-			kill.reply(from, 'wa.me/+5216538490293 Si no responde, solo espera, es raro que deje Internet ~Smitten guy sabe~, pero si sucedió, fue algo importante..', id)
+            kill.sendContact(from, 'wa.me/+50582733230')
+			kill.reply(from, 'wa.me/+50582733230 Si no responde, solo espera, es raro que deje Internet ~Smitten guy sabe~, pero si sucedió, fue algo importante..', id)
             break
 
 
         case 'donate':
 		case 'doar':
             kill.sendText(from, donate, id)
-            kill.sendContact(from, 'wa.me/+5216538490293')
+            kill.sendContact(from, 'wa.me/+50582733230')
             break
 
 
