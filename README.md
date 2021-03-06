@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.pinimg.com/originals/2f/3c/30/2f3c30beac8ec655bbb2a74942ab11ee.gif" width="320" height="270"/>
+<img src="https://i.pinimg.com/originals/14/cb/dc/14cbdc965352ff5c0a3d992501db026d.jpg" width="320" height="270"/>
 </p>
 
 # MeliodasBot02✔🔥
